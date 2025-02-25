@@ -28,6 +28,10 @@ namespace Fiap.Operacoes
             {
                 Console.WriteLine($"\n{primeiroNumero} é maior que {segundoNumero}.\n");
             }
+            else if (primeiroNumero == segundoNumero)
+            {
+                Console.WriteLine($"\n{primeiroNumero} é igual a {segundoNumero}.\n");
+            }
             else
             {
                 Console.WriteLine($"\n{segundoNumero} é maior que {primeiroNumero}.\n");
